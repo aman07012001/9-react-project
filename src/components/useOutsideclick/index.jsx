@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import useOutsideClick from "./useOutsideclick";
 
 function TestuseOutsideClick() {
+  const [limit, setlimit] = useState(0);
   const [showcontent, setshowcontent] = useState(false);
   const ref=useRef(null)
   

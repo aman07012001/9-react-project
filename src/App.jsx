@@ -18,28 +18,14 @@ import ScrolltoTop from "./components/ScrolltoTop";
 import Weather from "./components/Weather";
 
 function App() {
-  const [limit, setlimit] = useState(0);
+  
   return (<>
     <ThemeProvider>
-      <Accordian />
-      <Randomcolor />
-      <Starrating />
-      {/* <ImageSlider  url="https://picsum.photos/v2/list?page=2&limit=10" /> */}
-      {/* <Loadmore
-        url={`https://picsum.photos/v2/list?page=${limit}&limit=10`}
-        limit={limit}
-        setlimit={setlimit}
-      /> */}
-      <Treeview />
-      <GenerateQrcode />
-      {/* <ScrollIndicator url="https://dummyjson.com/products?limit=100" /> */}
-      <Modal />
-      {/* <Searchapi /> */}
-      <Tictac />
-      <TestuseOutsideClick />
-      {/* <ScrolltoTop url="https://dummyjson.com/products?limit=100"/> */}
-      
+     {
+      "hii"
+     }
     </ThemeProvider>
+
     <Weather />
     </>
 
