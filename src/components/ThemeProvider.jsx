@@ -32,7 +32,7 @@ function ThemeProvider({children}) {
         
         {
             key:true ,
-            Component: <ImageSlider key={4} />
+            Component: <ImageSlider  url="https://picsum.photos/v2/list?page=2&limit=10" key={4} />
         },
         
         {
@@ -42,7 +42,9 @@ function ThemeProvider({children}) {
         
         {
             key:true ,
-            Component: <Loadmore key={6}/>
+            Component: <Loadmore  url={`https://picsum.photos/v2/list?page=${limit}&limit=10`}
+            limit={limit}
+            setlimit={setlimit} key={6}/>
         },
         
         {
