@@ -4,6 +4,7 @@ import { FaAngleLeft } from "react-icons/fa";
 import { FaAngleRight } from "react-icons/fa";
 
 function ImageSlider({ url }) {
+  
   const [images, setimages] = useState([]);
   const [loading, setloading] = useState(false);
   const [errormsg, seterrormsg] = useState("");
